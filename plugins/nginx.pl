@@ -3,7 +3,7 @@ use strict;
 use warnings; 
 use LWP;
 use Time::Local; 
-my $baseurl = "http://stats.sovetromantica.com/stats"; 
+my $baseurl = "http://stats.example.com/stats"; 
 my $ua = LWP::UserAgent->new(keep_alive=>1); 
 $ua->agent('Mozilla/5.0'); 
 $ua->cookie_jar({}); 
